@@ -1,43 +1,43 @@
 *{
     margin: 0;
-	padding:0;
-	border:none;
-	outline:none;
+    padding: 0;
+	border: none;
+	outline: none;
 }
 
 body{
 	font-family:arial;
-	font-sixe:13px;
+	font-size:13px;
 	line-height:1.5em;
-	color:#AA70DC;
-	background-color:#AC9CCB
+	color: #D37FE5;
+	background-color:#884CC1;
 }
 
 .clearfix{
 	clear:both;
 }
+
 #container{
-	
 	width:330px;
 	min-height:400px;
-	background:#E0CFF1;
+	background: #722758;
 	overflow:auto;
-	margin:60px auto;
+	margin: 60PX auto;
 	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	boder-radius:10px;
-	boder:#E88CDC solid 2px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	border: #F963EB solid 2px;
 }
 
 #audio-image{
 	position:relative;
-	overflow: hidden;
+	overflow:hidden;
 	height:200px;
 	margin-bottom:15px;
 }
 
 #audio-info{
-	text-align: center;
+	text-align:center;
 }
 
 #audio-info .artist{
@@ -52,16 +52,16 @@ body{
 input#volume{
 	width:95%;
 	margin-left:2%;
-	-webkit--appearance: none!important;
-	background:#F8A6D6;
-	height:1px;
-	margin-bottom:20px;
+	-webkit-appearance: none !important;
+	background:#C79FD4;
+	height:1PX;
+	margin-bottom: 20px;
 }
 
 
 #buttons{
 	width:90%;
-	display:block;
+	display: block;
 	margin: 15px auto;
 	margin-left:23px;
 	overflow:auto;
@@ -70,19 +70,19 @@ input#volume{
 button#play{
 	width:70px;
 	height:70px;
-	background:url(../images/play.png)no-repeat;float:left;
+	background:url(../images/play.png) no-repeat;float:left;
 }
 
 button#pause{
-	width:70;
-	height:70px;
-	background:url(../images/pause.png)no-repeat;float:left;
+	width: 70px;
+	height: 70px;
+	background:url(../images/pause.png) no-repeat;float:left;
 }
 
 button#stop{
-	width:70px;
-	height:70px;
-	background:url(../images/stop.png)no-repeat;float:left;
+	width: 70px;
+	height: 70px;
+	background:url(../images/stop.png) no-repeat;float:left;
 }
 
 
@@ -90,35 +90,35 @@ button#stop{
 	list-style-type: none;
 	padding:10px;
 }
-	
+
 #playlist li{
-	cursor:pointer;
+	cursor: pointer;
 	margin:5px;
 }
 
 #tracker{
 	position:relative;
-	width:100%;
+	width:100%
 }
 
 #playlist li.active{
 	font-weight:bold;
 	padding:3px;
-	background:#BC13B6;
+	background: #CF41C5;
 }
 
 #progressBar{
 	width:80%;
 	margin-left:2%;
 	margin-bottom:20px;
-	margin-top:9px;
-	heigth:10px;
-	background:url(../images/progress_bg.png)no-repeat;
+	margin-top: 9px;
+	height:10px;
+	background:url(../images/progress_bg.png) no-repeat;
 	float:left;
 }
 
 #progress{
-	background:url(../images/progress.png)no-repeat;
+	background:url(../images/progress.png) no-repeat;
 	height:10px;
 	display:inline-block;
 }
@@ -128,8 +128,6 @@ button#stop{
 	top:0;
 	right:10px;
 	padding:4px 8px;
-	background:#D5BCE2;
+	background: #F178F1;
 	border-radius:5px;
 }
-
-   
