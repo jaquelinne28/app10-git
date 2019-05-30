@@ -75,7 +75,7 @@ $('#prev').click(function (){
 		prev =$('#playlist li:last-child');
 	}
 	initAudio (prev);
-	audio.paly();
+	audio.play();
 	showDuration();
 });
 
@@ -101,7 +101,7 @@ function showDuration (){
 		//Get hours and minutes
 		var s = parseInt(audio.currentTime % 60);
 		var m = parseInt((audio.currentTime/60)% 60);
-		//Add 0 if seconds less than 100
+		//Add 0 if seconds less than 10
 		if(s<10){
 			s='0' + s;
 		}
