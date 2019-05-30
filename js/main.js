@@ -91,7 +91,7 @@ $('#playlist li').click(function () {
 });
 
 //Volumen Control
-$('#volumen').change(function (){
+$('#volume').change(function (){
 	audio.volume =parseFloat(this.value/10);
 });
 
